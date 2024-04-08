@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./background.png);
+    background-position: center;;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+nav{
+	display: flex;
+	list-style: none;
+	font-size: 20px;
+}
+a{
+	color:white;
+    font-weight: bold;
+	text-decoration: none;
+    padding: 20px;
+}
+.push{
+	margin-right: auto;
+	color:white;
+    width: 100px;
+    height: 80px;
+
+}
+.row{
+    display: flex;
+    height: 80%;
+    align-items: center;
+}
+.col{
+
+    flex-basis: 50%;
+    color: white;
+    padding: 100px;
+}
+.col h1{
+    margin-bottom: 20px;
+    font-size: 80px;
+}
+button{
+    margin-top: 20px;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: 0;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding:  10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(./card.png);   
+
+}
+.card2{
+    background-image: url(./card2.png);   
+
+}
+.card3{
+    background-image: url(./card3.png);   
+
+}
+.card4{
+    background-image: url(./card4.png);   
+
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.square{
+width: 50%;
+height: 100%;
+margin-top: 50px;
+}
+#about h1{
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+#about p{
+    padding: 100px;
+    line-height: 30px;
+}
+details{
+  padding: 50px;
+  float: right;
+  margin-top: -100px;
+}
+.m{
+    height: 400px;
+}
+#help
+{
+    padding: 20px;
+}
+fieldset{
+    padding: 100px;
+}
+#help p{
+ margin: 20px 10px;
+}
+#help hr{
+    margin-bottom: 20px;
+     width: 400px;
+}
+#Service h1{
+    margin-top: 50px;
+margin-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+
+}
+.contact{
+    display: flex;
+}
+.lft_container{
+margin: 40px;
+
+}
+.lft_container h1{
+text-align: center;
+margin: 20px;
+font-size: 40px;
+} 
+.btn{
+    background-color: rgb(255, 200, 0);
+    padding: 10px 15px;
+    transition: transform 0.5s;
+    border: 0;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-top: 50px;
+    font-size:20px ;
+}
+.right_container{
+margin: 40px;
+
+}
+.right_container h1{
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+    }
+footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
